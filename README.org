@@ -1,0 +1,30 @@
+* なんこれ
+
+  アニメまちカドまぞく（以下、門真）の視聴及び門真の原作漫画を読むことを推奨してくるだけならまだしも、mikutterプラグインで自動的に勧めてくる人間が存在する。
+
+  https://gist.github.com/shibafu528/9628014830a007612cc2e9d1619e1bc6
+
+  このプラグインは、そのようなやべーやつに対抗するためのプラグインである。
+
+* インストール方法
+
+  #+BEGIN_SRC sh
+mkdir -p ~/.mikutter/plugin && git clone https://github.com/toshia/anti-matsushita.git ~/.mikutter/plugin/anti_matsushita
+  #+END_SRC
+
+* 使い方
+
+起動すると、自分に対する「まちカドまぞくを見ろ」というリプライに対して自動的に視聴を拒否するリプライを返す。
+
+複数のWorldに対応しており、適切なWorldで拒否する。
+
+これすき百烈拳の悪夢を再来させないために、雑なストーム対策が入っており、一度反応すると1分のクールタイムが入る。
+
+* ライセンス
+
+  Copyright (c) 2019 Toshiaki Asai
+
+  Released under the MIT license
+
+  https://opensource.org/licenses/mit-license.php
+
