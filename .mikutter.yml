@@ -1,0 +1,10 @@
+---
+slug: :anti_matsushita
+depends:
+  mikutter: 3.10.0-develop
+  plugin: []
+version: '1.0'
+author: toshi_a
+name: Anti Matsushita
+description: >-
+  まちカドまぞくの視聴を自動的に推奨された場合、自動的に拒否します。
